@@ -1,0 +1,7 @@
+.navbar-brand{
+    width: 35%;
+}
+.navbar-collapse .navbar-nav{
+    width: 100%;
+    justify-content: space-between;
+}
