@@ -1,3 +1,8 @@
+body {
+    font-family: Poppins;
+    font-size: 16px;
+    color: black !important;
+}
 *{
     border: 2px dotted red;
 }
@@ -7,4 +12,24 @@
 .navbar-collapse .navbar-nav{
     width: 100%;
     justify-content: space-between;
+}
+.day-night-toggler{
+width: 50px;
+display: flex;
+max-width: 50px;
+max-height: 50px;
+overflow: hidden;
+}
+.day-night-toggler .moon{
+    margin-right:10px;
+}
+.active{
+    display: none;
+}
+.hero-toggler{
+    width: 150px;
+    display: block;
+    max-width: 150px;
+    max-height: 150px;
+    overflow: hidden;
 }
